@@ -106,16 +106,16 @@ const Details = () => {
             {data.shipment.destination}
           </p>
           <p>
-            <span>mode: </span> {data.shipment.destination}
+            <span>mode: </span> {data.shipment.mode}
           </p>
           <p>
-            <span>type: </span> {data.shipment.destination}
+            <span>type: </span> {data.shipment.type}
           </p>
           <p>
-            <span>total: </span> {data.shipment.destination}
+            <span>total: </span> {data.shipment.total}
           </p>
           <p>
-            <span>user id: </span> {data.shipment.destination}
+            <span>user id: </span> {data.shipment.userId}
           </p>
         </div>
         <div>
