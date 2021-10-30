@@ -1,0 +1,28 @@
+{
+    "eslint.workingDirectories": [
+      "src"
+    ],
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+      ],
+      "files.associations": {
+        "*.jsx": "javascriptreact"
+      },
+      "editor.insertSpaces": true,
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll": true,
+        "source.organizeImports": false
+      },
+      "json.format.enable": true,
+      "files.autoSave": "onFocusChange",
+      "editor.tabSize": 2,
+      "editor.detectIndentation": false,
+      "typescript.updateImportsOnFileMove.enabled": "always",
+      "javascript.updateImportsOnFileMove.enabled": "always",
+      "cSpell.userWords": ["browserslist", "choco", "linebreak", "peerdeps"]
+  }

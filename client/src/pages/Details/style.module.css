@@ -1,0 +1,26 @@
+.wrapper {
+  width: 80%;
+  margin: 5% auto;
+  border: 2px solid blue;
+  padding: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1rem;
+}
+
+.heading,
+.wrapper span {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@media all and (max-width: 400px) {
+  .wrapper {
+    width: 95%;
+    margin: 5% auto;
+    padding: 1rem 0.1em;
+  }
+}
