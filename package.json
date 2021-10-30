@@ -2,12 +2,13 @@
   "name": "freighthub-frontend-challenge",
   "version": "1.0.0",
   "description": "FreightHub Frontend Coding Challenge",
-  "main": "index.js",
+  "main": "server.js",
   "repository": "git@github.com:freight-hub/freighthub-frontend-challenge.git",
   "author": "FreightHub Recruiting Team",
   "license": "MIT",
   "scripts": {
-    "server": "json-server db.json -p 8000"
+    "server": "json-server db.json -p 8000",
+    "start": "node server.js"
   },
   "dependencies": {
     "json-server": "^0.14.2"
